@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>API-AJAX-POO</title>
+        <link rel="stylesheet" href="api_ajax_poo.css">
+    </head>
+
+    <body>
+        <h1>API User Managment</h1>
+
+        <div class="user-list">
+            <h2>Users</h2>
+            <ul id="user-list"></ul>
+        </div>
+
+        <div class="form-container">
+            <h2>Add user</h2>
+            <form id="add-user-form">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required>
+                
+                <label for="mail">Mail:</label>
+                <input type="email" name="mail" id="mail" required>
+
+                <button type="submit">Add user</button>
+            </form>
+            <p id="message"></p>
+        </div>
+        <script src="api_ajax_poo.js"></script>
+    </body>
+</html>

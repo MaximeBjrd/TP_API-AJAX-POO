@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.user-list {
+    margin-bottom: 20px;
+}
+
+.user-list li {
+    margin-bottom: 10px;
+}
+.user-list li button:first-of-type {
+    margin-left: 20px;
+}
+
+.form-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#add-user-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
