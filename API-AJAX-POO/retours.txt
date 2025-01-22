@@ -1,0 +1,4 @@
+Quelques retours dans la partie loadUsers
+
+Sinon, pas de souci, tu as compris l'utilisation de l'asynchrone et des Class. Et tu gères les erreurs
+Bonne pratique que de passer une baseURL et des endpoint pour ne lancer qu'une seule HTTPRequest
